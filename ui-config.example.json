@@ -1,0 +1,8 @@
+{
+  "endpoint": "https://cloud.appwrite.io/v1",
+  "projectId": "YOUR_PROJECT_ID",
+  "bucketId": "speech_recognition",
+  "appwriteApiKey": "YOUR_SCOPED_API_KEY_FOR_STORAGE_UPLOAD",
+  "functionUrl": "https://your-function-endpoint/",
+  "functionKey": "YOUR_SCOPED_API_KEY_FOR_FUNCTION"
+}
