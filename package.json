@@ -5,12 +5,14 @@
   "main": "src/main.js",
   "type": "module",
   "scripts": {
-    "format": "prettier --write .",
-    "setup": "node src/setup.js"
+  "format": "prettier --write .",
+  "setup": "node src/setup.js",
+  "ui:config": "node src/generate-ui-config.mjs"
   },
   "dependencies": {
-    "@huggingface/inference": "^2.7.0",
-    "node-appwrite": "^14.1.0"
+  "@huggingface/inference": "^2.7.0",
+  "node-appwrite": "^14.1.0",
+  "dotenv": "^16.4.5"
   },
   "devDependencies": {
     "prettier": "^3.2.5"

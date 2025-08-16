@@ -1,4 +1,16 @@
-# Logs
+# Local testing secrets
+.env
+ui-config.json
+*.local
+*.secret
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+node_modules/
+dist/
+build/# Logs
 logs
 *.log
 npm-debug.log*
